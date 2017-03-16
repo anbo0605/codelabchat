@@ -108,9 +108,18 @@
 </div>
 
 <!-- Firebase -->
-<!-- ***********************************************************************************************************************
-     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-     *********************************************************************************************************************** -->
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCuphQB4CYKpe07spO7e-Bt79UJMQAGZlk",
+    authDomain: "chattylab.firebaseapp.com",
+    databaseURL: "https://chattylab.firebaseio.com",
+    storageBucket: "chattylab.appspot.com",
+    messagingSenderId: "105659212263"
+  };
+  firebase.initializeApp(config);
+</script>
 
 <script src="scripts/main.js"></script>
 </body>
